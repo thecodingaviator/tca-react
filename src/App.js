@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Phenomenon.js';
 
 class Welcome extends React.Component {
   render() {
