@@ -4,10 +4,12 @@ import './App.css';
 class Welcome extends React.Component {
   render() {
     return (
-      <div className="welcome">
-        <h1>The Coding Aviator</h1>
-        <div className="overlay-1"></div>
-        <div className="overlay-2"></div>
+      <div>
+        <canvas></canvas>
+        <div className="welcome">
+          <h1>The Coding Aviator</h1>
+          <h3>DEVELOPER | DESIGNER</h3>
+        </div>
       </div>
     )
   }
