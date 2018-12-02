@@ -13,4 +13,9 @@
   width: 100%;
   height: fit-content;
   text-align: center;
+  font-size: 5vw;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15%;
+  color: #444;
 }
