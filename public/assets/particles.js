@@ -1,5 +1,5 @@
 var d = document, $d = $(d),
-  w = window, $w = $(w),
+  $w = $('.welcome'),
   wWidth = $w.width(), wHeight = $w.height(),
   credit = $('.credit > a'),
   particles = $('.particles'),
@@ -107,7 +107,7 @@ function createParticle(event) {
         webkitTransform: 'rotate(' + spinVal + 'deg)'
       });
 
-    if (time <= 0 || left <= -size || left >= wWidth + size || top >= wHeight + size) {
+    if (time <= 0 || left <= -size || left >= wWidth + size || top >= wHeight - size) {
       particle.remove();
       particleCount--;
       updateParticleCount();
