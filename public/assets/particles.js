@@ -1,5 +1,5 @@
-var $d = $('.welcome'),
-  $w = $d,
+var d = document, $d = $(d),
+  w = window, $w = $(w),
   wWidth = $w.width(), wHeight = $w.height(),
   credit = $('.credit > a'),
   particles = $('.particles'),
