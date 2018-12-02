@@ -1,6 +1,5 @@
-/* eslint-disable */
 var $d = $('.welcome'),
-  $w = $('.welcome'),
+  $w = $d,
   wWidth = $w.width(), wHeight = $w.height(),
   credit = $('.credit > a'),
   particles = $('.particles'),
@@ -60,7 +59,7 @@ $d
 
 
 function createParticle(event) {
-  var particle = $('<div class="particle">'),
+  var particle = $('<div class="particle"/>'),
     size = sizes[Math.floor(Math.random() * sizes.length)],
     color = colors[Math.floor(Math.random() * colors.length)],
     negative = size / 2,
@@ -108,7 +107,7 @@ function createParticle(event) {
         webkitTransform: 'rotate(' + spinVal + 'deg)'
       });
 
-    if (time <= 0 || left <= -size || left >= wWidth + size || top >= wHeight - 45) {
+    if (time <= 0 || left <= -size || left >= wWidth + size || top >= wHeight + size) {
       particle.remove();
       particleCount--;
       updateParticleCount();
