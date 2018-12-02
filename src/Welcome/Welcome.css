@@ -1,0 +1,16 @@
+.welcome {
+  background: var(--white);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.welcome h1, .welcome h3 {
+  color: var(--grey);
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+}

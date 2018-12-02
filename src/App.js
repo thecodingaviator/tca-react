@@ -1,21 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-class Welcome extends React.Component {
-  render() {
-    return (
-      <div>
-        <div className="welcome">
-          <h1>The Coding Aviator</h1>
-          <h3>DEVELOPER | DESIGNER</h3>
-        </div>
-      </div>
-    )
-  }
-}
+import Welcome from './Welcome/Welcome.js';
 
-
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <Welcome />
