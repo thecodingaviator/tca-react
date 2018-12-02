@@ -1,5 +1,5 @@
 .welcome {
-  background: var(--white);
+  background: linear-gradient(to bottom, #efedeb, #FFFFFF);
   width: 100vw;
   height: 100vh;
   display: flex;

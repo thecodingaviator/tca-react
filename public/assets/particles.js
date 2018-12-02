@@ -1,3 +1,4 @@
+/* eslint-disable */
 var d = document, $d = $(d),
   $w = $('.welcome'),
   wWidth = $w.width(), wHeight = $w.height(),
@@ -26,7 +27,7 @@ $w
     wHeight = $w.height();
   });
 
-$d
+$w
   .on('mousemove touchmove', function (event) {
     event.preventDefault();
     event.stopPropagation();

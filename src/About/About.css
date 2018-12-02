@@ -1,5 +1,54 @@
 .about {
   min-width: 100vw;
   min-height: 100vh;
-  background: #000;
+  padding: 10vw 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.about > div {
+  min-height: 100%;
+}
+
+.about > div:nth-of-type(1) img {
+  border-radius: 50%;
+  min-width: 50%;
+  height: auto;
+}
+
+.about > div:nth-of-type(1) {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30vw;
+}
+
+.about > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+
+.about > div:nth-of-type(2) h1 {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.about > div:nth-of-type(2) p {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 630px) {
+  .about {
+    background: #fff;
+  }
 }
