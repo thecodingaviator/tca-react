@@ -1,0 +1,93 @@
+.hidden {
+  display: none;
+}
+
+.contact {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 10vw 10vh;
+  box-sizing: border-box;
+}
+
+.contact h1 {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.contact form > p {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  resize: none;
+  min-height: 25px;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
+  animation: 0.3s highlight-out ease-out forwards;
+  border: 2px solid transparent;
+  padding: 2px;
+  box-shadow: 3px 3px 1px rgba(0,0,0,0.05);
+}
+
+.contact form input:focus, .contact form textarea:focus {
+  animation: 0.3s highlight-in ease-in forwards;
+}
+
+@keyframes highlight-in {
+  from {
+    border: 2px solid #e6e6e6;
+  }
+  to {
+    border: 2px solid #44c7f5;
+  }
+}
+
+@keyframes highlight-out {
+  from {
+    border: 2px solid #44c7f5;
+  }
+  to {
+    border: 2px solid #e6e6e6;
+  }
+}
+
+.contact form > p:last-of-type {
+  width: fit-content;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background: none;
+  border: 2px solid transparent;
+  animation: button-off 0.3s forwards ease-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact form button:hover {
+  animation: button-on 0.3s forwards ease-in;
+}
+
+@keyframes button-on {
+  from {
+    border: 2px solid transparent;
+  }
+  to {
+    border: 2px solid #44c7f5;
+  }
+}
+
+@keyframes button-off {
+  from {
+    border: 2px solid #44c7f5;
+  }
+  to {
+    border: 2px solid transparent;
+  }
+}
