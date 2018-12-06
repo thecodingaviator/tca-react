@@ -6,7 +6,7 @@ export default class Contact extends React.Component {
     return (
       <div className="contact">
         <h1>Reach Me</h1>
-        <form name="contact" method="POST" autoComplete="off" netlify>
+        <form name="contact" method="POST" autoComplete="off" enctype="application/x-www-form-urlencoded" netlify>
           <p>
             <label><span>Name</span><input type="text" name="name" autoComplete="off" /></label>
           </p>
