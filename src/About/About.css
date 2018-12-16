@@ -45,7 +45,10 @@
   font-size: 1.4rem;
   text-align: center;
   line-height: 1.5;
-  @media only screen and (max-width: 1350px) {
+}
+
+@media only screen and (max-width: 1350px) {
+  .about > div:nth-of-type(2) p {
     max-width: 60%;
   }
 }
