@@ -9,11 +9,13 @@ export default class Welcome extends React.Component {
         <Particles />
         <div className="welcome">
           <h1>THE CODING AVIATOR</h1>
-          <p>Tap/click and drag ;&#41;</p>
-          <div className="down-arrow">
-            <div className="chevron"></div>
-            <div className="chevron"></div>
-            <div className="chevron"></div>
+          <div>
+            <p>Tap/click and drag ;&#41;</p>
+            <div className="down-arrow">
+              <div className="chevron"></div>
+              <div className="chevron"></div>
+              <div className="chevron"></div>
+            </div>
           </div>
         </div>
       </div>
