@@ -5,6 +5,6 @@ gtag('js', new Date());
 
 gtag('config', 'UA-130237896-1');
 
-document.getElementsByClassName.onclick = function(){
+document.getElementsByClassName('down-arrow').onclick = function(){
   document.getElementById('about').scrollIntoView();
 }
