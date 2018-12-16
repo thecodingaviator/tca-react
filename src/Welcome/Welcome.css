@@ -27,6 +27,10 @@
   width: 100%;
 }
 
+.down-arrow:hover {
+  cursor: pointer;
+}
+
 .chevron {
   position: absolute;
   width: 2.1rem;
