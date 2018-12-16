@@ -4,3 +4,7 @@ function gtag() { dataLayer.push(arguments); }
 gtag('js', new Date());
 
 gtag('config', 'UA-130237896-1');
+
+document.getElementsByClassName.onclick = function(){
+  document.getElementById('about').scrollIntoView();
+}
