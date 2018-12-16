@@ -6,7 +6,7 @@ import photograph from './photo.jpg';
 export default class About extends React.Component {
   render() {
     return (
-      <div className="about">
+      <div className="about" id="about">
         <div>
           <img src={ photograph } alt=""/>
         </div>
