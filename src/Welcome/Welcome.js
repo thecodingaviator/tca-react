@@ -15,9 +15,9 @@ export default class Welcome extends React.Component {
             <p>Tap/click and drag ;&#41;</p>
             <br />
             <div className="down-arrow" onClick={log}>
-              <div className="chevron"></div>
-              <div className="chevron"></div>
-              <div className="chevron"></div>
+              <div className="chevron" onClick={log}></div>
+              <div className="chevron" onClick={log}></div>
+              <div className="chevron" onClick={log}></div>
             </div>
           </div>
         </div>
