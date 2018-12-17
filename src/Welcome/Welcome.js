@@ -2,6 +2,8 @@ import React from 'react';
 import './Welcome.css';
 import Particles from './Particles.js';
 
+function log(){console.log('hi')}
+
 export default class Welcome extends React.Component {
   render() {
     return (
@@ -12,7 +14,7 @@ export default class Welcome extends React.Component {
           <div>
             <p>Tap/click and drag ;&#41;</p>
             <br />
-            <div className="down-arrow" onClick={console.log('hi')}>
+            <div className="down-arrow" onClick={log()}>
               <div className="chevron"></div>
               <div className="chevron"></div>
               <div className="chevron"></div>
