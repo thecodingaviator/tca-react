@@ -28,6 +28,7 @@
   position: absolute;
   right: 0%;
   z-index: 100;
+  min-height: 1.5rem;
 }
 
 .down-arrow:hover {
