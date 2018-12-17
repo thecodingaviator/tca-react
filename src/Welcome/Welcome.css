@@ -25,6 +25,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  position: absolute;
+  right: 0%;
+  z-index: 100;
 }
 
 .down-arrow:hover {
