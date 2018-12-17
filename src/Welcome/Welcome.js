@@ -12,10 +12,12 @@ export default class Welcome extends React.Component {
           <div>
             <p>Tap/click and drag ;&#41;</p>
             <br />
-            <div className="down-arrow">
-              <div className="chevron"></div>
-              <div className="chevron"></div>
-              <div className="chevron"></div>
+            <a href="#about">
+              <div className="down-arrow">
+                <div className="chevron"></div>
+                <div className="chevron"></div>
+                <div className="chevron"></div>
+            </a>
             </div>
           </div>
         </div>
