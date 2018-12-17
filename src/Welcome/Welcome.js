@@ -12,7 +12,7 @@ export default class Welcome extends React.Component {
           <div>
             <p>Tap/click and drag ;&#41;</p>
             <br />
-            <div className="down-arrow">
+            <div className="down-arrow" onClick={console.log('hi')}>
               <div className="chevron"></div>
               <div className="chevron"></div>
               <div className="chevron"></div>
