@@ -2,7 +2,7 @@ import React from 'react';
 import './Welcome.css';
 import Particles from './Particles.js';
 
-function log(){console.log('hi')}
+function log(){document.getElementById('about').scrollIntoView();}
 
 export default class Welcome extends React.Component {
   render() {
