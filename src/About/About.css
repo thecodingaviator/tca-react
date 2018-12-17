@@ -14,7 +14,7 @@
 
 .about > div:nth-of-type(1) img {
   border-radius: 50%;
-  min-width: 50%;
+  width: 50%;
   height: auto;
 }
 
