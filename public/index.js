@@ -5,10 +5,6 @@ gtag('js', new Date());
 
 gtag('config', 'UA-130237896-1');
 
-document.getElementsByClassName('down-arrow').onclick = function(){
-  document.getElementById('about').scrollIntoView();
-}
-
 function currentYPosition() {
     // Firefox, Chrome, Opera, Safari
     if (self.pageYOffset) return self.pageYOffset;
