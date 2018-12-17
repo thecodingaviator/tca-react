@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 
-import photograph from './photo.jpg';
+import photograph from './photo.png';
 
 export default class About extends React.Component {
   render() {
