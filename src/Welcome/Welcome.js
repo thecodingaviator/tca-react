@@ -2,7 +2,7 @@ import React from 'react';
 import './Welcome.css';
 import Particles from './Particles.js';
 
-function log(){document.getElementById('about').scrollIntoView();}
+function down(){document.getElementById('about').scrollIntoView();}
 
 export default class Welcome extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export default class Welcome extends React.Component {
           <div>
             <p>Tap/click and drag ;&#41;</p>
             <br />
-            <div className="down-arrow" onClick={log}>
+            <div className="down-arrow" onClick={down}>
               <h1>&#65088;</h1>
             </div>
           </div>
