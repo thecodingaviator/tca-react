@@ -21,6 +21,7 @@ export default class Contact extends React.Component {
             <button type="submit">Send</button>
           </p>
         </form>
+        <span>&copy; 2019 The Coding Aviator</span>
       </div>
     )
   }
