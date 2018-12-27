@@ -1,0 +1,78 @@
+.links {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.links h1 {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -25%;
+}
+
+.links div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.codepen, .instagram, .github {
+  border-radius: 50%;
+}
+
+.codepen svg, .instagram svg, .github svg {
+  width: 20vw;
+  height: auto;
+  animation: move-down 0.5s forwards;
+  fill: currentColor;
+  color: black;
+  border-radius: 50%;
+}
+
+.instagram svg {
+  border-radius: 0;
+}
+
+.codepen svg:hover, .instagram svg:hover, .github svg:hover {
+  animation: move-up 0.5s forwards;
+}
+
+@keyframes move-up {
+  0% {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+  100% {
+    transform: translateY(-15px);
+    box-shadow: 4px 6px 10px grey;
+  }
+}
+
+@keyframes move-down {
+  0% {
+    transform: translateY(-15px);
+    box-shadow: 4px 6px 10px grey;
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .links h1 {
+    margin: 0;
+  }
+
+  .links div:nth-of-type(1) {
+    padding: 5vh 40vw;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+  .codepen svg, .instagram svg, .github svg {
+    width: 30vw;
+  }
+}

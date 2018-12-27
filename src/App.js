@@ -3,6 +3,8 @@ import './App.css';
 
 import Welcome from './Welcome/Welcome.js';
 import About from './About/About.js';
+//import Projects from './Projects/Projects.js';
+import Links from './Links/Links.js';
 import Contact from './Contact/Contact.js';
 
 export default class App extends React.Component {
@@ -11,6 +13,7 @@ export default class App extends React.Component {
       <div>
         <Welcome />
         <About />
+        <Links />
         <Contact />
       </div>
     );
